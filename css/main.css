@@ -83,7 +83,7 @@ header a{
   padding-right: 7px;
 }
 .sm-icons i{
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 /*===== Banner Styles=====*/
 #banner{
@@ -220,6 +220,8 @@ footer .icon{
     font-size: 2em;
     padding-top: 9px;
 }
+
+
 /*=====ABOUT PAGE STYLES=====*/
 #video{
   width: 100%;
@@ -231,8 +233,9 @@ footer .icon{
 }
 
 .video-container{
-  width: 98%;
+  width: 75%;
   margin: 0px auto;
+  background-color: green;
 }
 
 #video iframe{
@@ -285,4 +288,87 @@ footer .icon{
 figure {
   margin: 0px;
   padding: 0px;
+}
+
+/*===== Contact Styles=====*/
+
+#map{
+  width: 100%;
+  height: 400px;
+}
+
+.map-box{
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+#contact{
+  height: 600px;
+  width: 100%;
+  background-color: #AA3939;
+  color: #fff;
+}
+#contact h1{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 3em;
+}
+
+.contact-content{
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.form-box{
+  width: 75%;
+  float: left;
+  padding: 0;
+}
+#contact form{
+  width: 75%;
+  margin: 0 auto;
+}
+
+#contact form input{
+  display: block;
+  height: 45px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact textarea{
+  width: 100%;
+  height: 150px;
+}
+
+
+.contact-info{
+  width: 25%;
+  float: left;
+}
+
+.contact-info ul{
+  margin: 0;
+  padding:0;
+  font-size: 1.23em;
+}
+.contact-info li{
+  padding: 2px 0;
+}
+
+#contact button{
+  width: 150px;
+    height: 50px;
+    background-color: #313C74 ;
+    border: 1px solid #313C74 ;
+    font-size: 1.2em;
+    color: #fff;
+    cursor: pointer;
 }
